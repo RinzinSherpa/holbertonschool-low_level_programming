@@ -4,7 +4,7 @@
 *main - auwheiuhae
 *print_hello - Prints "Hello"
 *Description : aiwjea
-*Retrun : retrurns 0 ifjaoifn oaienrrereroero
+*Return: retrurns 0 ifjaoifn oaienrrereroero
 */
 int main(void)
 {
@@ -22,5 +22,5 @@ int main(void)
 
 	_putchar('\n');
 
-return (0);
+	return (0);
 }

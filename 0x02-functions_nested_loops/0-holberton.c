@@ -1,7 +1,11 @@
 #include "holberton.h"
+
 /**
- * print_hello - Prints "Hello"
- */
+*main - auwheiuhae
+*print_hello - Prints "Hello"
+*Description : aiwjea
+*Retrun : retrurns 0 ifjaoifn oaienrrereroero
+*/
 int main(void)
 {
 		/**_putchar s[10]="holberton\n";*/
@@ -17,5 +21,6 @@ int main(void)
 	_putchar('n');
 
 	_putchar('\n');
+
 return (0);
 }

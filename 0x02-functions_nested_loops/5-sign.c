@@ -2,9 +2,9 @@
 /**
  * print_sign - prints the sign of the number
  * @n: The number to be checked
- * Return : return type is int 1 +,0 0, -1 -
+ * Return: return type is int 1 +,0 0, -1 -
  */
-int print_sign
+int print_sign(int n)
 {
 	if (n > 0)
 	{

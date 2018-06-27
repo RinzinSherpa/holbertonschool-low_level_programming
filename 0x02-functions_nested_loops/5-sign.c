@@ -4,7 +4,7 @@
  * @n: The number to be checked
  * Return : return type is int 1 +,0 0, -1 -
  */
-int print_sign(int n)
+int print_sign
 {
 	if (n > 0)
 	{

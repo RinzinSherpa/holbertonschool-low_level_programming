@@ -1,11 +1,12 @@
-#ifndef __HOLBERTON_h__
-#define _HOLBERTON_h__
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
 
-/*
+/**
  * Write a program that prints Holberton, followed by a new line.
  *  Function prototypes
-*/
+ */
 
+int add(int x, int y);
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);

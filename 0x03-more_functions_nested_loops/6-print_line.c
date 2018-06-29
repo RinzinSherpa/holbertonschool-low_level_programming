@@ -2,9 +2,9 @@
 /**
  * print_line - function that draws a straight line in terminal
  * @n: parameter is n
- * @z: parameter is z
  */
-void print_line(int n, z)
+
+void print_line(int n)
 {
 	int z;
 

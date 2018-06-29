@@ -4,10 +4,10 @@
  * @n: parameter is n
  * @z: parameter is z
  */
-void print_line(int n)
+void print_line(int n, z)
 {
 	int z;
-	
+
 	if (n > 0)
 	{
 		for (z = 0; z < n; z++)

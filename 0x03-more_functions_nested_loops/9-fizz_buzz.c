@@ -22,10 +22,10 @@ int main(void)
 			printf("Fizz");
 		}
 		else
-		{	
-			printf("%d", y);			
+		{
+			printf("%d", y);
 		}
-		if (y != 100)		
+		if (y != 100)
 		{
 			printf(" ");
 		}

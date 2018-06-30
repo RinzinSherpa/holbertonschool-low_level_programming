@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main - function
+ *Return: return type is int
 */
+
 int main(void)
 {
 	int y;

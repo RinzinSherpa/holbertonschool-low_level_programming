@@ -3,6 +3,7 @@
 /**
  *print_rev - function that prints a string followed by new line
  *@s: parmeter is s
+ *@i: parameter is i
  */
 
 void print_rev(char *s)

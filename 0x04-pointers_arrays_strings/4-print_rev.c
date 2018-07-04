@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *print_rev - function that prints a string followed by new line
+ *print_rev - prints a string followed by new line
  *@s: parmeter is s
  *@i: parameter is i
  */

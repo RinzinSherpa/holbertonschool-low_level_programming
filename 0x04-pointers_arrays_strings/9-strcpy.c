@@ -3,7 +3,9 @@
  * _strcpy - function copies the string
  * @dest: dest is the pointer of type char
  * @src: src is the parameter of type char
+ * Return:the return value is a character
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int i;

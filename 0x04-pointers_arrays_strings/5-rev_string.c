@@ -3,7 +3,6 @@
 /**
  *rev_string - prints a string followed by new line
  *@s: parmeter is s
- *@i: parameter is i
  */
 
 void rev_string(char *s)

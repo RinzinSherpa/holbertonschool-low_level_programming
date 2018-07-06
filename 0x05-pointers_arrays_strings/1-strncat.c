@@ -3,7 +3,7 @@
  *_strncat - function that concatenates two strings
  *@dest: parameter is *dest of type char
  *@src: parameter is *src of type char
- *@n: paramet is n of type integer
+ *@n: parameter is n of type integer
  *Return: returns dest
  */
 
@@ -11,7 +11,6 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int length;
 	int s2;
-	int n;
 
 	for (length = 0; dest[length] != '\0'; length++)
 	{

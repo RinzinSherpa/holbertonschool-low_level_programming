@@ -1,0 +1,41 @@
+#include "holberton.h"
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
+
+/**
+ *rev_string - prints a string followed by new line
+ *@s: parmeter is s
+ *@i: parameter is i
+ */
+
+void rev_string(char *s)
+{
+	int length;
+	int Temp;
+	int count;
+	int left;
+
+	for (length = 0; s[length] != '\0'; length++)
+	{
+		;
+	}
+
+	for (count = length - 1, left = 0 ; count > length / 2; count--, left++)
+	{
+		Temp = s[count];
+		s[count] = s[left];
+		s[left] = Temp;
+	}
+}

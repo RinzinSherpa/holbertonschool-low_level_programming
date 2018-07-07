@@ -3,7 +3,7 @@
  *_strcat - function that concatenates two strings
  *@dest: parameter is *dest of type char
  *@src: parameter is *src of type char
- *Returns - returns the output of type char
+ *Return: returns the output of type char
  */
 
 char *_strcat(char *dest, char *src)

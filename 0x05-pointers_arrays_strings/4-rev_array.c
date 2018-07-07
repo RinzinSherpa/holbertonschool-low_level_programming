@@ -7,19 +7,16 @@
 void reverse_array(int *a, int n)
 {
 
-	int length;
-	int secondlength;
-	int temp;
-	int leftcount;
+	int length, sndlen, temp, lftcount;
 
 	for (length = 0; a[length] != '\0' && length < n; length++)
 	{
 		;
 	}
-	for (secondlength = n - 1, leftcount = 0 ; leftcount < secondlength; secondlength--, leftcount++)
+	for (sndlen = n - 1, lftcount = 0 ; lftcount < sndlen; sndlen--, lftcount++)
 	{
-		temp = a[secondlength];
-		a[secondlength] = a[leftcount];
-		a[leftcount] = temp;
+		temp = a[sndlen];
+		a[sndlen] = a[lftcount];
+		a[lftcount] = temp;
 	}
 }

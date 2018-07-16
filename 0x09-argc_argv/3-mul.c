@@ -9,22 +9,16 @@
  */
 int main(int argc, char *argv[])
 {
-	int a =  atoi(argv[1]);
-	int b =  atoi(argv[2]);
-	int z;
-
 
 	if (argc != 3)
 	{
-		printf("Error");
-		printf("\n");
+		printf("Error\n");
 		return (1);
 	}
 
 	if (argc == 3)
 	{
-		z = a * b;
-		printf("%d\n", z);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	return (0);
 }

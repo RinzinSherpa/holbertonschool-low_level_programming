@@ -15,15 +15,18 @@ char *create_array(unsigned int size, char c)
 
 	iptr = malloc(sizeof(char) * size);
 
-
+	if (size == 0)
+	{
+		return (NULL);
+	}
+	if (iptr == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < size; i++)
 	{
 		iptr[i] = c;
-		if (size == 0)
-		{
-			return (NULL);
-		}
 	}
 	return (iptr);
-}
 
+}

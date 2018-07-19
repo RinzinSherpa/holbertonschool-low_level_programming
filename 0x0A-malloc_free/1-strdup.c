@@ -21,7 +21,11 @@ char *_strdup(char *str)
 		;
 	}
 	cptr = malloc(sizeof(char) * i + 1);
-
+	if (cptr == NULL)
+	{
+		return (NULL);
+	}
+	
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		cptr[i] = str[i];

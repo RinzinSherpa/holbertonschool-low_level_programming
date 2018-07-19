@@ -7,9 +7,8 @@
  *@str: input parameter is a string of type char
  * Return: return value of the output is of type char
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
-
 	int i;
 	char *cptr;
 	
@@ -27,10 +26,6 @@ char *_strdup(char *str);
 	{
 		cptr[i] = str[i];
 	}
-	if (cptr = NULL)
-	{
-		return (NULL);
-	} 
 	return (cptr);
 }
 

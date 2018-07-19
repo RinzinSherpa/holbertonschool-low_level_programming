@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *maloc_checked - function is a pointer to a void
+ *malloc_checked - function is a pointer to a void
  *@b: input parameter is of type unsigned int
  *Return: returns void
  */

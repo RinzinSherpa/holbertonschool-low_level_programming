@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 		while (format[i] != '\0')
 		{
 			switch (format[i])
-			{	
+			{
 				case 'c':
 				printf("%c", va_arg(ap, int));
 				break;
@@ -50,7 +50,7 @@ void print_all(const char * const format, ...)
 			if (format[i + 1] != '\0')
 			{
 				printf(", ");
-			}	
+			}
 		i++;
 		}
 		va_end(ap);
